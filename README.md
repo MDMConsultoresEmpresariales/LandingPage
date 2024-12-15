@@ -1,6 +1,6 @@
-# Landing Page: [Nombre de tu Proyecto]
+# Landing Page: MDM CONSULTORES EMPRESARIALES S.A.C
 
-Esta es una landing page desarrollada para [describir propósito o cliente objetivo]. Su diseño y funcionalidades están optimizados para proporcionar una experiencia de usuario atractiva y funcional.
+Esta es una landing page desarrollada para clientes de la empresa MDM. Su diseño y funcionalidades están optimizados para proporcionar una experiencia de usuario atractiva y dar a conocer los servicios de la empresa.
 
 ## Tabla de Contenidos
 
@@ -50,7 +50,7 @@ La paleta de colores utilizada para este proyecto incluye:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone git@github.com:MDMConsultoresEmpresariales/LandingPage.git
    ```
 2. Abre el archivo `index.html` en cualquier navegador web.
 3. Personaliza el contenido editando el archivo `index.html`.
@@ -58,4 +58,4 @@ La paleta de colores utilizada para este proyecto incluye:
 
 ## Créditos
 
-Este proyecto fue desarrollado por [Tu Nombre] como parte de [tu propósito o cliente]. Si tienes preguntas o sugerencias, no dudes en contactarme en [tu correo electrónico o perfil en redes].
+Este proyecto fue desarrollado por Julio Elsner De La Torre Ugarte como parte de developer. 
