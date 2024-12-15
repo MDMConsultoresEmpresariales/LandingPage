@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDM Consultores Empresariales</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="shortcut icon" href="assets/images/proceso-legal.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="page-header">
+        <div class="header-container">
+            <img src="assets/images/MDM.png" alt="MDM Logo" class="logo" id="logo">
+            <h1 id="title">MDM Consultores Empresariales S.A.C</h1>
+            <nav>
+                <ul id="header">
+                    <br>
+                    <br>
+                    <li><a href="#slider">INICIO</a></li>
+                    <li><a href="#Nosotros">ACERCA DE</a></li>
+                    <li><a href="#Servicios">SERVICIOS</a></li>
+                    <li><a href="#Contactanos">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HeroSlider -->
+        <div class="hero" id="slider">
+            <div class="text">
+                <br>
+                <br>
+                <br>
+                <h1>SOMOS EXPERTOS EN BRINDAR SOLUCIONES CONTABLES Y LEGALES A MEDIDA DE TU EMPRESA</h1>
+                <br>
+                <p>Brindamos asesoría contable y legal a empresas, optimizando su gestión financiera y asegurando el cumplimiento legal mediante contratos y otros servicios especializados.</p>
+                <br>
+                <a href="#Contactanos"><button id="contactanosbutton">Contactanos</button></a>
+            </div>
+        </div>
+
+        <section id="Nosotros">
+            <h2>Acerca de Nosotros</h2>
+            <div class="contenido">
+                <div class="texto">
+                    <p><strong>MDM Consultores Empresariales</strong> ofrece soluciones contables y legales personalizadas, enfocándose en optimizar la gestión financiera y garantizar el cumplimiento de las normativas legales. Su misión es ser un socio estratégico para empresas de todos los tamaños, abarcando servicios como contabilidad, administración tributaria, gestión de contratos y asesoría laboral.</p>
+
+                    <p>Con un equipo de expertos en contabilidad, derecho y tributación, trabajan estrechamente con los clientes para ofrecer soluciones eficientes que promuevan el crecimiento y la sostenibilidad. Con amplia experiencia en diversos sectores, se destacan por su compromiso con la excelencia y el apoyo continuo a sus clientes.</p>
+
+                </div>
+                <div class="imagen">
+                    <img src="assets/images/about-us.jpg" alt="Imagen de Nosotros">
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="Servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-container">
+                <div class="service-box">
+                    <img src="assets/images/calcular.png" alt="Legal Consulting">
+                    <h3>Estudio Contable</h3>
+                    <h5>Nos encargamos de optimizar la gestión financiera de tu empresa, garantizando precisión en los estados financieros y cumpliendo con las normativas vigentes.</h5>
+                </div>
+                <div class="service-box">
+                    <img src="assets/images/cumplimiento-tributario.png" alt="Accounting Services">
+                    <h3>Administración Tributaria</h3>
+                    <h5>Ofrecemos soluciones efectivas para la gestión tributaria, asegurando el cumplimiento de tus obligaciones fiscales y evitando sanciones.</h5>
+                </div>
+                <div class="service-box">
+                    <img src="assets/images/contrato.png" alt="Tax Planning">
+                    <h3>Gestión de contratos</h3>
+                    <h5>Elaboramos y revisamos contratos legales para proteger los intereses de tu empresa, asegurando acuerdos claros y conformes a la ley.</h5>
+                </div>
+                <div class="service-box">
+                    <img src="assets/images/asesoria-laboral.png" alt="Business Advisory">
+                    <h3>Asesoría laboral</h3>
+                    <h5>Brindamos asesoría legal en materia laboral, gestionando relaciones laborales de acuerdo con la legislación vigente y promoviendo el bienestar en tu empresa.</h5>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section id="Contactanos">
+                    <!-- Formulario -->
+            <div id="form-container">
+                <h2>Formulario de Contacto</h2>
+                <form id="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="button" id="submitButton">Enviar</button>
+                </form>
+            </div>
+                
+                <!-- Popup Overlay -->
+            <div id="popupOverlay" class="hidden">
+                <div id="popup">
+                    <h3>Formulario Enviado</h3>
+                    <p>Gracias por tu mensaje. Nos pondremos en contacto pronto.</p>
+                    <button id="closePopup">Cerrar</button>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer ">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 40px;">
+            <!-- Column 1: HOME -->
+            <div style="flex: 1; padding: 10px; min-width: 200px;">
+                <h3 style="font-size: 18px; font-weight: bold;">ATAJOS</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                <u><li><a href="##slider" style="color: white; text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px; margin-top: 10px;">INICIO</a></li>
+                    <br>
+                </u>
+                    <u><li><a href="#Nosotros" style="color: white; text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px; margin-top: 10px;">ACERCA DE</a></li>
+                    <br>
+                </u>
+                <u><li><a href="#Servicios" style="color: white; text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px; margin-top: 10px;">SERVICIOS</a></li>
+                    <br>
+                </u>
+                <u><li><a href="#Contactanos" style="color: white; text-decoration: none; font-size: 14px; display: block; margin-top: 10px;">CONTACTANOS</a></li>
+                    <br>
+                </u>
+
+                </ul>
+            </div>
+        
+            <!-- Column 2: COMPANY -->
+            <div style="flex: 1; padding: 10px; min-width: 200px;">
+                <h3 style="font-size: 18px; font-weight: bold;">COMPAÑÍA</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a style="color: white; text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px;">MDM Consultores Empresariales</a></li>
+                    <li><a " style="color: white; text-decoration: none; font-size: 14px; display: block;">S.A.C</a></li>
+                </ul>
+            </div>
+        
+            <!-- Column 3: CONTACT -->
+            <div style="flex: 1; padding: 10px; min-width: 200px;">
+                <h3 style="font-size: 18px; font-weight: bold;">TELÉFONO DE CONTACTO</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a  style="color: white; text-decoration: none; font-size: 14px; display: block; margin-bottom: 8px;">01 ... </a></li>
+                </ul>
+                <br>
+                <div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                    <a href="https://www.instagram.com/" style="display: inline-block;">
+                        <img src="assets/images/instagram.png" alt="" style="width: 24px; height: 24px; border: none;">
+                    </a>
+                    <a href="https://www.facebook.com/" style="display: inline-block;">
+                        <img src="assets/images/facebook.png" alt="" style="width: 24px; height: 24px; border: none;">
+                    </a>
+                    <a href="#" style="display: inline-block;">
+                        <img src="assets/images/email.png" alt="" style="width: 24px; height: 24px; border: none;">
+                    </a>
+                </div>
+                
+                
+            </div>
+        
+            <!-- Google Maps Section -->
+            <div style="flex: 2; padding: 10px; min-width: 400px; margin-top: 20px;">
+                <strong id="location" style="font-size: 18px; font-weight: bold;">Donde nos encontramos:</strong>
+                <p style="font-size: 14px; margin-top: 10px;">15021, Av. Javier Prado Este 6295, La Molina</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6223087101926!2d-76.95437642493857!3d-12.069487288169098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7b56a31eaef%3A0x4aea608fcd921e1a!2sMDM%20CONSULTORES%20EMPRESARIALES!5e0!3m2!1ses-419!2spe!4v1734120281612!5m2!1ses-419!2spe" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    
+        <!-- Copyright and Footer Text -->
+        <div style="text-align: center; padding-top: 20px; font-size: 12px; color: #bbb;">
+            <p>&copy; 2024 MDM Consultores Empresariales. Todos los derechos reservados.</p>
+
+        </div>
+    </footer>
+    
+
+    
+    
+    <script src="assets/scripts/scripts.js"></script>
+</body>
+</html>
